@@ -1,0 +1,29 @@
+.floating-button-group {
+  position: fixed;
+  bottom: 10px;
+  right: 8px;
+  z-index: 90;
+}
+
+.floating-button {
+  background-color: blue;
+  color: white;
+  border: none;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  margin: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.floating-button:hover {
+  background-color: darkblue;
+}
+
+.main-button {
+  background-color: red; /* Different color for the main button */
+}
